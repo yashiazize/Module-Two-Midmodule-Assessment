@@ -8,5 +8,5 @@ workflows:
           post-steps:
             - store_artifacts:
                 path: cypress/videos
-            - store_artiacts:
+            - store_artifacts:
                 path: cypress/screenshots
