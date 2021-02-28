@@ -1,0 +1,22 @@
+#dice-history{
+    border: 2px solid white;
+    padding: 40px;
+}
+
+section {
+    border: 2px solid white;
+    padding: 40px;
+}
+
+body {
+    background-color: rgb(68, 4, 4);
+    color: seashell;
+}
+
+#dice-para {
+    font-size: 40px;
+}
+
+ul {
+    font-size: 30px;
+}
