@@ -9,6 +9,7 @@ const dice = [
 
 const form = document.querySelector("#dice-roll-form");
 
+
 form.addEventListener("submit", (event) => {
   event.preventDefault();
   const display = document.querySelector("#dice-para");
@@ -23,11 +24,8 @@ form.addEventListener("submit", (event) => {
   }
   display.innerHTML = randomDiceDisplay;
   sumDisplay.textContent = `Sum = ${sumTotal}`;
-  if (event) {
     const ul = document.querySelector("ul");
     const li = document.createElement("li");
     ul.appendChild(li);
     li.textContent = `${display.innerHTML} = ${sumTotal}`;
-  }
-  debugger;
 });
